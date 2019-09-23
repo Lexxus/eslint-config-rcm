@@ -13,7 +13,10 @@ Set your eslint config to:
 
 ```json
 {
-  "extends": "rcm"
+  "extends": "rcm",
+  "plugins": [
+    "@typescript-eslint/eslint-plugin"
+  ]
 }
 ```
 
