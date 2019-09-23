@@ -25,7 +25,7 @@
   "homepage": "https://github.com/Lexxus/eslint-config-rcm#readme",
   "dependencies": {
     "@typescript-eslint/parser": "^2.3.0",
-    "eslint": "6.1.0",
+    "eslint": "^6.4.0",
     "eslint-config-airbnb": "^18.0.1",
     "eslint-plugin-import": "^2.18.2",
     "typescript": "3.6.3"
