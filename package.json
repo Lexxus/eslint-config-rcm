@@ -1,0 +1,40 @@
+{
+  "name": "eslint-config-rcm",
+  "version": "1.0.0",
+  "description": "ESLint config based on Airbnb config. Support TS, TSX, React.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Lexxus/eslint-config-rcm.git"
+  },
+  "keywords": [
+    "eslint",
+    "eslintconfig",
+    "airbnb",
+    "typescript",
+    "react"
+  ],
+  "author": "Oleksii Teterin",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Lexxus/eslint-config-rcm/issues"
+  },
+  "homepage": "https://github.com/Lexxus/eslint-config-rcm#readme",
+  "dependencies": {
+    "@typescript-eslint/parser": "^2.3.0",
+    "eslint": "6.1.0",
+    "eslint-config-airbnb": "^18.0.1",
+    "eslint-plugin-import": "^2.18.2",
+    "typescript": "3.6.3"
+  },
+  "peerDependencies": {
+    "@typescript-eslint/eslint-plugin": "^2.3.0",
+    "eslint": "^6.4.0",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-react": "^7.14.3",
+    "eslint-plugin-react-hooks": "^2.0.1"
+  }
+}
