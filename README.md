@@ -4,7 +4,7 @@ ESLint config based on Airbnb config. Support TS, TSX, React.
 ## Installation
 
 ```console
-$ npm install --save-dev eslint-config-rcm
+$ npm install --save-dev eslint-config-rcm @typescript-eslint/eslint-plugin
 ```
 
 ## Usage
