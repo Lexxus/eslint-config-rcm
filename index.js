@@ -42,7 +42,7 @@ module.exports = {
 	"@typescript-eslint/class-name-casing": "error",
 	"@typescript-eslint/consistent-type-assertions": "error",
 	"@typescript-eslint/explicit-function-return-type": "warn",
-	"@typescript-eslint/interface-name-prefix": "error",
+	"@typescript-eslint/interface-name-prefix": "off",
 	"@typescript-eslint/member-delimiter-style": "error",
 	"no-array-constructor": "off",
 	"@typescript-eslint/no-array-constructor": "error",
