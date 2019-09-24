@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-rcm",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "ESLint config based on Airbnb config. Support TS, TSX, React.",
   "main": "index.js",
   "scripts": {
@@ -24,14 +24,14 @@
   },
   "homepage": "https://github.com/Lexxus/eslint-config-rcm#readme",
   "dependencies": {
-    "@typescript-eslint/parser": "^2.3.0",
+    "@typescript-eslint/parser": "^2.3.1",
     "eslint": "^6.4.0",
     "eslint-config-airbnb": "^18.0.1",
     "eslint-plugin-import": "^2.18.2",
     "typescript": "^3.5.3"
   },
   "peerDependencies": {
-    "@typescript-eslint/eslint-plugin": "^2.3.0",
+    "@typescript-eslint/eslint-plugin": "^2.3.1",
     "eslint": "^6.4.0"
   }
 }
