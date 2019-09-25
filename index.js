@@ -21,6 +21,7 @@ module.exports = {
   "rules": {
     "array-bracket-spacing": ["error", "always"],
     "comma-dangle": "off",
+	"func-style": ["error", "declaration"],
     "import/named": "off",
     "import/no-default-export": "error",
     "import/prefer-default-export": "off",
@@ -32,9 +33,11 @@ module.exports = {
     "react/destructuring-assignment": "warn",
     "react/jsx-boolean-value": ["error", "always"],
     "react/jsx-filename-extension": ["error", { "extensions": [".jsx", ".tsx"] }],
+	"semi": ["error", "always"],
 	
 	// @typescript-eslint/recommended
 	"@typescript-eslint/adjacent-overload-signatures": "error",
+	"@typescript-eslint/array-type": ["error", { default: "array-simple" }],
 	"@typescript-eslint/ban-ts-ignore": "error",
 	"@typescript-eslint/ban-types": "error",
 	"camelcase": "off",
