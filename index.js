@@ -21,7 +21,8 @@ module.exports = {
   "rules": {
     "array-bracket-spacing": ["error", "always"],
     "comma-dangle": "off",
-	"func-style": ["error", "declaration"],
+	"default-case": "off",
+	"func-style": ["warn", "declaration"],
     "import/named": "off",
     "import/no-default-export": "error",
     "import/prefer-default-export": "off",
@@ -44,7 +45,7 @@ module.exports = {
 	"@typescript-eslint/camelcase": "error",
 	"@typescript-eslint/class-name-casing": "error",
 	"@typescript-eslint/consistent-type-assertions": "error",
-	"@typescript-eslint/explicit-function-return-type": "warn",
+	"@typescript-eslint/explicit-function-return-type": "off",
 	"@typescript-eslint/interface-name-prefix": "off",
 	"@typescript-eslint/member-delimiter-style": "error",
 	"no-array-constructor": "off",
