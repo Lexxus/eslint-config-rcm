@@ -13,3 +13,7 @@
 * Disabled "default-case".
 * Disabled "@typescript-eslint/explicit-function-return-type".
 * Set "func-style" to "warn".
+
+## 1.1.3 (2019-10-02)
+
+* Disabled rule "jsx-a11y/no-static-element-interactions".
