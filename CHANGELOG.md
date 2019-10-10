@@ -17,3 +17,7 @@
 ## 1.1.3 (2019-10-02)
 
 * Disabled rule "jsx-a11y/no-static-element-interactions".
+
+## 1.1.4 (2019-10-10)
+
+* Added "confusing-browser-globals" to override "no-restricted-globals" rule.

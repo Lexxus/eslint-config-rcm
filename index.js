@@ -1,3 +1,5 @@
+var restrictedGlobals = require("confusing-browser-globals");
+
 module.exports = {
   extends: [
     "eslint-config-airbnb",
@@ -30,6 +32,7 @@ module.exports = {
     "max-len": ["error", { "code": 120, "ignoreStrings": true, "ignoreTemplateLiterals": true, "ignoreRegExpLiterals": true }],
     "no-param-reassign": ["error", { "props": false }],
     "no-plusplus": "off",
+	"no-restricted-globals": ["error"].concat(restrictedGlobals),
     "object-curly-newline": ["error", { "ImportDeclaration": { "multiline": true } }],
     "react/destructuring-assignment": "warn",
     "react/jsx-boolean-value": ["error", "always"],
