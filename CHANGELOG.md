@@ -21,3 +21,7 @@
 ## 1.1.4 (2019-10-10)
 
 * Added "confusing-browser-globals" to override "no-restricted-globals" rule.
+
+## 1.1.5 (2019-11-18)
+
+* Disabled "jsx-a11y/no-noninteractive-element-interactions" rule.
